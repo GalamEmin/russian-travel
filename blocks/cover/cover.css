@@ -1,0 +1,33 @@
+
+.cover {
+  min-width: 320px;
+  max-width: 1280px;
+  min-height: 200px;
+  max-height: 704px;
+  margin: 92px 48px;
+}
+  
+  @media (max-width : 1279px) {
+	.cover {
+        min-height: 562px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 1023px) {
+	.cover {
+        min-height: 500px;
+    }
+}
+
+@media (max-width : 767px) {
+	.cover {
+        min-height: 272px;
+    }
+}
+
+@media (max-width : 374px) {
+	.cover {
+        min-height: 216px;
+    }
+}
