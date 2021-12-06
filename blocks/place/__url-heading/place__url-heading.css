@@ -8,3 +8,10 @@
   font-weight: normal;
   margin: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__url-heading {
+    display: block;
+    margin-top: 50px;
+  }
+}

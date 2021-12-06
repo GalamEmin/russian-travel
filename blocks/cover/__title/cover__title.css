@@ -10,32 +10,10 @@
     font-family: Inter;
 }
 
-@media (max-width : 1279px) {
-	.cover__title {
-        width: 54%;
-        margin-top: 211px;
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+    .cover__title{
+      font-size: 32px;
+      line-height: 35px;
+      max-width: calc(100% - 32px);
     }
-}
-
-@media (max-width : 1023px) {
-	.cover__title {
-        width: 70%;
-        margin-top: 165px;
-    }
-}
-
-@media (max-width : 767px) {
-	.cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        margin-top: 104px;
-        width: 65%;
-    }
-}
-
-@media (max-width : 374px) {
-	.cover__title {
-        margin-top: 64px;
-        width: 75%;
-    }
-}
+  }
