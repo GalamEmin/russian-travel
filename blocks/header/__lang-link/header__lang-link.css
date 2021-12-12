@@ -8,12 +8,12 @@
   color: #ffffff;
 }
 
-.header__lang-link:last-of-type {
-  margin-right: 0;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
-.header__lang-link:last-of-type:hover {
-  opacity: 0.8;
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

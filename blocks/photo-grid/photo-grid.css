@@ -11,13 +11,15 @@
   .photo-grid {
     max-width: calc(100% - 32px);
     margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
   
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     max-width: calc(100% - 48px);
-    margin-top: 46px;
+    margin-top: 88px;
   }
 }
   
