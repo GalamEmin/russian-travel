@@ -2,7 +2,8 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0 100px;
+  width: 984px;
+  margin: 0 auto;
 }
   
 @media screen and (min-width: 320px) and (max-width: 767px) {
